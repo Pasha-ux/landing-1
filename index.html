@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер тварин</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Головна</a>
+            <a href="#">Контакти</a>
+            <a href="#">Інформація</a>
+        </nav>
+    </header>
+
+    <div class="carousel">
+        <!-- Основний слайдер -->
+        <div class="list">
+            <!-- Слайд 1 - Тигр -->
+            <div class="item active">
+                <img src="https://images.unsplash.com/photo-1477764250597-dffe9f601ae8" alt="Леопард">
+                <div class="content">
+                    <div class="author">X-DEV</div>
+                    <div class="title">СЛАЙДЕР ТВАРИН</div>
+                    <div class="topic">Тигр</div>
+                    <div class="des">
+                        Тигр-великий хижий звір родини котячих жовтогарячого забарвлення з чорними смугами.
+                    </div>
+                    <div class="buttons">
+                        <button class="see-more">ДЕТАЛЬНІШЕ</button>
+                        <button class="subscribe">ПІДПИСАТИСЯ</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Слайд 2 - Лев -->
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1534188753412-3e26d0d618d6" alt="Лев">
+                <div class="content">
+                    <div class="author">X-DEV</div>
+                    <div class="title">СЛАЙДЕР ТВАРИН</div>
+                    <div class="topic">Лев</div>
+                    <div class="des">
+                      Лев-вид хижих ссавців з роду пантер родини котових, родом з Африки та Індії.
+                    </div>
+                    <div class="buttons">
+                        <button class="see-more">ДЕТАЛЬНІШЕ</button>
+                        <button class="subscribe">ПІДПИСАТИСЯ</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Слайд 3 - Вовк -->
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1555169062-013468b47731" alt="Вовк">
+                <div class="content">
+                    <div class="author">X-DEV</div>
+                    <div class="title">СЛАЙДЕР ТВАРИН</div>
+                    <div class="topic">Папуга</div>
+                    <div class="des">
+                       Папуга — птах походить з тропічних країн з яскравим і строкатим пір'ям.
+                    </div>
+                    <div class="buttons">
+                        <button class="see-more">ДЕТАЛЬНІШЕ</button>
+                        <button class="subscribe">ПІДПИСАТИСЯ</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Слайд 4 - Олень -->
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5" alt="Олень">
+                <div class="content">
+                    <div class="author">X-DEV</div>
+                    <div class="title">СЛАЙДЕР ТВАРИН</div>
+                    <div class="topic">Лиса</div>
+                    <div class="des">
+                       Лиса-рід ссавців родини псових (Canidae), ряду хижих.
+                    </div>
+                    <div class="buttons">
+                        <button class="see-more">ДЕТАЛЬНІШЕ</button>
+                        <button class="subscribe">ПІДПИСАТИСЯ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Мініатюри для навігації -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="https://images.unsplash.com/photo-1477764250597-dffe9f601ae8">
+                <div class="content">
+                    <div class="title">Тигр</div>
+                    <div class="description">Дика кішка</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1534188753412-3e26d0d618d6">
+                <div class="content">
+                    <div class="title">Лев</div>
+                    <div class="description">Хижак</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1555169062-013468b47731">
+                <div class="content">
+                    <div class="title">Папуга</div>
+                    <div class="description">Птах</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5">
+                <div class="content">
+                    <div class="title">Лиса</div>
+                    <div class="description">Лісова тварина</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Кнопки навігації -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+
+        <!-- Індикатор прогресу -->
+        <div class="time"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
